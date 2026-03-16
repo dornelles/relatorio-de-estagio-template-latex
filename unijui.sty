@@ -43,6 +43,13 @@
 
 
 % ==============================================================================
+% CONFIGURAÇÃO DO CABEÇALHO (APENAS NÚMERO DA PÁGINA)
+% ==============================================================================
+\makeevenhead{abntheadings}{\thepage}{}{}
+\makeoddhead{abntheadings}{}{}{\thepage}
+\makeheadrule{abntheadings}{\textwidth}{0pt}
+
+% ==============================================================================
 % DEFINIÇÃO DO AMBIENTE QUADRO
 % ==============================================================================
 \newcommand{\quadroname}{Quadro}
